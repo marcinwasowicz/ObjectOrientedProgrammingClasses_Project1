@@ -14,5 +14,6 @@ animation.
               - traced animal will be painted in pink
               - three numbers will be shown: number of its children, number of its descendants, and the number of epoch the animal died. All these values 
               are set to -1, -1, -1 by default, and the third number (number of epoch) will be set to -1, until the animal dies. Changing the number of 
-              epoch from -1 to something else will denote te fact, that the animal that was traced has already died
+              epoch from -1 to something else will denote te fact, that the animal that was traced has already died.
+
 At first glance animations may seem slow, but in fact their speeds were set in such a way deliberatley. If the user wants to speed them up, this can be done by increasing value of the variable 'amountOfTicks' in the code of SimulationEngine.java class. 
