@@ -4,7 +4,7 @@ How to use this application:
 Running this application will result in apperaing of two windows, each of which will show an animation of the animals, and constantly
 changing statistics.In the animation, red squares represent animals, green squares - grass, and black ones - desert.
 Animation in each window can be stopped by clicking on a particular window (to set focus) and pressing 's' button.
-Pressing 's' again will restart animation. When an animation is stopped and following actions are available:
+Pressing 's' again will restart animation. When an animation is stopped the following actions are available:
 - pressing G, will paint in blue every animal having genome identical with the dominationg one. This action can be undone by pessing
 G again, or restarting animation by pressing S.
 - Pressing F, will create a text file containg average statistics from the begining of the animation. This file will have the following 
