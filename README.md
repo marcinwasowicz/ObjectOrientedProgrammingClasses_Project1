@@ -12,6 +12,7 @@ format: "statistics_file_of_grass_" + ID number of an animation + "_" + number o
 animation.
 - clicking a red square, will start tracing an animal. Tracing will continue until an animal dies and will consist of the following actions:
               - traced animal will be painted in pink
+              
               - three numbers will be shown: number of its children, number of its descendants, and the number of epoch the animal died. All these values 
               are set to -1, -1, -1 by default, and the third number (number of epoch) will be set to -1, until the animal dies. Changing the number of 
               epoch from -1 to something else will denote te fact, that the animal that was traced has already died.
